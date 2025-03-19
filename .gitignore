@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Mac stuff
+.DS_Store
+
+# iPython notebooks for testing
+notebooks/
+
+# Local development python settings
+.python-version
+.cache/
+
+# vscode
+.vscode/
+
+# We don't need uv's lockfile, that's machine-specific
+uv.lock
+
+.venv/*
+
+.Rhistory
+.Rprofile
+.Rproj.user/*
+renv/*
+renv.lock
+*Rproj
+
+# No data please
+*csv
