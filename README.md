@@ -11,40 +11,7 @@ Let's say you're running a study where you want to simultaneously test the effec
 
 Then the number of potential combinations of conditions is 2^3 = 8. Both the R and python functions will generate 3 independent lists of a specified length, where in every group of 8 rows, half the conditions will be 1 and half will be 0.
 
-Run the python code like:
-
-```
-make_blocks.py <list_length> <number_of_factors> <csv_prefix>
-```
-
-It'll generate `<number_of_factors>` CSV files with the proper columns for REDCap lists.
-
-You can also use the python function directly:
-
-```
->>> import make_factors
-
->>> factor_ar = make_factors.make_factor_array(10, 3)
->>> factor_ar
-[[0 1 0]
- [1 0 0]
- [0 0 1]
- [1 0 1]
- [0 1 1]
- [1 1 1]
- [1 1 0]
- [0 0 0]
- [1 0 1]
- [1 0 0]
- [0 0 1]
- [1 1 0]
- [0 1 1]
- [0 0 0]
- [1 1 1]
- [0 1 0]]
-```
-
-The R code is similar:
+Run the R code like:
 
 ```
 > source("make_factors.R")
@@ -86,3 +53,38 @@ Writing test2_01.csv
 Writing test2_02.csv
 Writing test2_03.csv
 ```
+
+
+The python code is similar:
+
+```
+make_blocks.py <list_length> <number_of_factors> <csv_prefix>
+```
+
+It'll generate `<number_of_factors>` CSV files with the proper columns for REDCap lists.
+
+You can also use the python function directly:
+
+```
+>>> import make_factors
+
+>>> factor_ar = make_factors.make_factor_array(10, 3)
+>>> factor_ar
+[[0 1 0]
+ [1 0 0]
+ [0 0 1]
+ [1 0 1]
+ [0 1 1]
+ [1 1 1]
+ [1 1 0]
+ [0 0 0]
+ [1 0 1]
+ [1 0 0]
+ [0 0 1]
+ [1 1 0]
+ [0 1 1]
+ [0 0 0]
+ [1 1 1]
+ [0 1 0]]
+```
+
