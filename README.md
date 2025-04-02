@@ -100,3 +100,5 @@ Somewhere in your study, create fields for your randomization. Call them whateve
 Add a randomization model for each of your randomization fields. Assign one to each of your randomization fields, and upload the corresponding CSV file with your randomization data.
 
 Optional but probably what you want: Set Automatic Triggering to the same thing for each each of your randomization models. Triggering on something like completing consent, or completing baseline surveys, might be what you want.
+
+There is a [demo REDCap project](https://github.com/uwmadison-chm/multifactorial_designs/blob/main/MultifactorialDesign_2025-04-02_1150.REDCap.xml) included in this repository to get you started.
