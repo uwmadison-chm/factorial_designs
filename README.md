@@ -11,6 +11,8 @@ Let's say you're running a study where you want to simultaneously test the effec
 
 Then the number of potential combinations of conditions is 2^3 = 8. Both the R and python functions will generate 3 independent lists of a specified length, where in every group of 8 rows, half the conditions will be 1 and half will be 0.
 
+## R code
+
 Run the R code like:
 
 ```
@@ -54,6 +56,7 @@ Writing test2_02.csv
 Writing test2_03.csv
 ```
 
+## Python code
 
 The python code is similar:
 
@@ -88,3 +91,12 @@ You can also use the python function directly:
  [0 1 0]]
 ```
 
+## REDCap setup
+
+Note: This requires **REDCap Version 14.7.0** or later -- earlier versions do not support multiple randomization models or logic-based randomization. Also: _I am not a biostatistician_ and can not advise you on how to design your study.
+
+Somewhere in your study, create fields for your randomization. Call them whatever you want. Make them multiple choice fields or yes/no fields, the available values should be 0 and 1. _These fields do not need to be in the flow of surveys._ You can have your randomization fields in a staff-only form and the randomization models will fill the values when they trigger.
+
+Add a randomization model for each of your randomization fields. Assign one to each of your randomization fields, and upload the corresponding CSV file with your randomization data.
+
+Optional but probably what you want: Set Automatic Triggering to the same thing for each each of your randomization models. Triggering on something like completing consent, or completing baseline surveys, might be what you want.
