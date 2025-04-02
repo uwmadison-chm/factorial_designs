@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Multifactorial Design Demo" AsOfDateTime="2025-04-02T11:50:34" CreationDateTime="2025-04-02T11:50:34" SourceSystem="REDCap" SourceSystemVersion="15.0.7">
+<Study OID="Project.MultifactorialDesignDemo">
+<GlobalVariables>
+	<StudyName>Multifactorial Design Demo</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Multifactorial Design Demo".</StudyDescription>
+	<ProtocolName>Multifactorial Design Demo</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:RandomizationEnabled>1</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>2</redcap:taskCompleteStatus>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="welcome" title="Welcome" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="1" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+		<redcap:Surveys form_name="randomization_result" title="Randomization Result" instructions="" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="0" display_page_number="0" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="0" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Admin" unique_role_name="U-179HEPJFAT" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[welcome,1][randomization_result,1][randomization,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" email_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="0" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[welcome,3][randomization_result,3][randomization,1]" api_export="1" api_import="1" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="1" random_dashboard="1" random_perform="1" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="1"/>
+	</redcap:UserRolesGroup>
+	<redcap:RandomizationGroup>
+		<redcap:Randomization stratified="0" group_by="" target_field="group_1" target_event="event_1_arm_1" source_field1="" source_event1="" source_field2="" source_event2="" source_field3="" source_event3="" source_field4="" source_event4="" source_field5="" source_event5="" source_field6="" source_event6="" source_field7="" source_event7="" source_field8="" source_event8="" source_field9="" source_event9="" source_field10="" source_event10="" source_field11="" source_event11="" source_field12="" source_event12="" source_field13="" source_event13="" source_field14="" source_event14="" source_field15="" source_event15="" trigger_option="2" trigger_instrument="welcome" trigger_event_id="event_1_arm_1" trigger_logic="[welcome_complete] != 0"/>
+		<redcap:Randomization stratified="0" group_by="" target_field="group_2" target_event="event_1_arm_1" source_field1="" source_event1="" source_field2="" source_event2="" source_field3="" source_event3="" source_field4="" source_event4="" source_field5="" source_event5="" source_field6="" source_event6="" source_field7="" source_event7="" source_field8="" source_event8="" source_field9="" source_event9="" source_field10="" source_event10="" source_field11="" source_event11="" source_field12="" source_event12="" source_field13="" source_event13="" source_field14="" source_event14="" source_field15="" source_event15="" trigger_option="2" trigger_instrument="welcome" trigger_event_id="event_1_arm_1" trigger_logic="[welcome_complete] != &quot;0&quot;"/>
+		<redcap:Randomization stratified="0" group_by="" target_field="group_3" target_event="event_1_arm_1" source_field1="" source_event1="" source_field2="" source_event2="" source_field3="" source_event3="" source_field4="" source_event4="" source_field5="" source_event5="" source_field6="" source_event6="" source_field7="" source_event7="" source_field8="" source_event8="" source_field9="" source_event9="" source_field10="" source_event10="" source_field11="" source_event11="" source_field12="" source_event12="" source_field13="" source_event13="" source_field14="" source_event14="" source_field15="" source_event15="" trigger_option="2" trigger_instrument="welcome" trigger_event_id="event_1_arm_1" trigger_logic="[welcome_complete] != &quot;&quot;"/>
+	</redcap:RandomizationGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.MultifactorialDesignDemo_2025-04-02_1150" Name="Multifactorial Design Demo" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.welcome" Name="Welcome" Repeating="No" redcap:FormName="welcome">
+		<ItemGroupRef ItemGroupOID="welcome.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="welcome.welcome_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.randomization_result" Name="Randomization Result" Repeating="No" redcap:FormName="randomization_result">
+		<ItemGroupRef ItemGroupOID="randomization_result.rand_res_desc" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="randomization_result.randomization_result_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.randomization" Name="Randomization" Repeating="No" redcap:FormName="randomization">
+		<ItemGroupRef ItemGroupOID="randomization.group_1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="randomization.randomization_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="welcome.record_id" Name="Welcome" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="desc" Mandatory="No" redcap:Variable="desc"/>
+		<ItemRef ItemOID="animal" Mandatory="No" redcap:Variable="animal"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="welcome.welcome_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="welcome_complete" Mandatory="No" redcap:Variable="welcome_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="randomization_result.rand_res_desc" Name="Randomization Result" Repeating="No">
+		<ItemRef ItemOID="rand_res_desc" Mandatory="No" redcap:Variable="rand_res_desc"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="randomization_result.randomization_result_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="randomization_result_complete" Mandatory="No" redcap:Variable="randomization_result_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="randomization.group_1" Name="Randomization" Repeating="No">
+		<ItemRef ItemOID="group_1" Mandatory="No" redcap:Variable="group_1"/>
+		<ItemRef ItemOID="group_2" Mandatory="No" redcap:Variable="group_2"/>
+		<ItemRef ItemOID="group_3" Mandatory="No" redcap:Variable="group_3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="randomization.randomization_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="randomization_complete" Mandatory="No" redcap:Variable="randomization_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="desc" Name="desc" DataType="text" Length="999" redcap:Variable="desc" redcap:FieldType="descriptive">
+		<Question><TranslatedText>This project will use REDCap&#039;s randomization to randomize you to three independent groups.</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="animal" Name="animal" DataType="text" Length="999" redcap:Variable="animal" redcap:FieldType="text">
+		<Question><TranslatedText>What is your favorite animal?</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="welcome_complete" Name="welcome_complete" DataType="text" Length="1" redcap:Variable="welcome_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="welcome_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="rand_res_desc" Name="rand_res_desc" DataType="text" Length="999" redcap:Variable="rand_res_desc" redcap:FieldType="descriptive">
+		<Question><TranslatedText>Your randomization results:
+
+Group 1: [group_1]
+Group 2: [group_2]
+Group 3: [group_3]</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="randomization_result_complete" Name="randomization_result_complete" DataType="text" Length="1" redcap:Variable="randomization_result_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="randomization_result_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="group_1" Name="group_1" DataType="text" Length="1" redcap:Variable="group_1" redcap:FieldType="radio">
+		<Question><TranslatedText>Group 1</TranslatedText></Question>
+		<CodeListRef CodeListOID="group_1.choices"/>
+	</ItemDef>
+	<ItemDef OID="group_2" Name="group_2" DataType="text" Length="1" redcap:Variable="group_2" redcap:FieldType="radio">
+		<Question><TranslatedText>Group 2</TranslatedText></Question>
+		<CodeListRef CodeListOID="group_2.choices"/>
+	</ItemDef>
+	<ItemDef OID="group_3" Name="group_3" DataType="text" Length="1" redcap:Variable="group_3" redcap:FieldType="radio">
+		<Question><TranslatedText>Group 3</TranslatedText></Question>
+		<CodeListRef CodeListOID="group_3.choices"/>
+	</ItemDef>
+	<ItemDef OID="randomization_complete" Name="randomization_complete" DataType="text" Length="1" redcap:Variable="randomization_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="randomization_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="welcome_complete.choices" Name="welcome_complete" DataType="text" redcap:Variable="welcome_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="randomization_result_complete.choices" Name="randomization_result_complete" DataType="text" redcap:Variable="randomization_result_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="group_1.choices" Name="group_1" DataType="text" redcap:Variable="group_1">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="group_2.choices" Name="group_2" DataType="text" redcap:Variable="group_2">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="group_3.choices" Name="group_3" DataType="text" redcap:Variable="group_3">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="randomization_complete.choices" Name="randomization_complete" DataType="text" redcap:Variable="randomization_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
