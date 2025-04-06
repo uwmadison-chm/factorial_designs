@@ -1,5 +1,5 @@
 # Factorial design scripts
-R and python scripts for generating multifactorial study randomization designs
+R and python scripts for generating factorial study randomization designs
 
 If you're running a research study where you want to randomize several (or many!) boolean conditions, this code may help you do that! It's geared towards generating randomization lists for use in REDCap, but the randomization code is the same for any study design technology. If you'd like a reference for this, see [this paper by Collins et al](https://psycnet.apa.org/record/2009-12975-002).
 
@@ -101,4 +101,4 @@ Add a randomization model for each of your randomization fields. Assign one to e
 
 Optional but probably what you want: Set Automatic Triggering to the same thing for each each of your randomization models. Triggering on something like completing consent, or completing baseline surveys, might be what you want.
 
-There is a [demo REDCap project](https://github.com/uwmadison-chm/multifactorial_designs/blob/main/MultiFactorialDesignREDCapDemo.xml) included in this repository to get you started.
+There is a [demo REDCap project](https://github.com/uwmadison-chm/factorial_designs/blob/main/FactorialDesignREDCapDemo.xml) included in this repository to get you started.
