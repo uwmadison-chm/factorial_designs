@@ -1,7 +1,7 @@
-# Multifactorial design scripts
+# Factorial design scripts
 R and python scripts for generating multifactorial study randomization designs
 
-If you're running a research study where you want to randomize several (or many!) boolean conditions, this code may help you do that! It's geared towards generating randomization lists for use in REDCap, but the randomization code is the same for any study design technology.
+If you're running a research study where you want to randomize several (or many!) boolean conditions, this code may help you do that! It's geared towards generating randomization lists for use in REDCap, but the randomization code is the same for any study design technology. If you'd like a reference for this, see [this paper by Collins et al](https://psycnet.apa.org/record/2009-12975-002).
 
 Let's say you're running a study where you want to simultaneously test the effects of:
 
